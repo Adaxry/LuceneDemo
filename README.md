@@ -9,15 +9,7 @@
 
 ## 文件结构
 
-├─image
-|  ├─save.png 
-|  └─search.png 
-└─src 
-   ├─CreateIndex.java
-   ├─Lucene.java
-   ├─LuceneTest.java
-   ├─swing.java
-   └─testMySQL.java 
+![](https://github.com/Adaxry/LuceneDemo/blob/master/image/fileStructure.jpg?raw=true)
 
 ## 注意事项
 1. eclipse 下文件默认为GBK编码
