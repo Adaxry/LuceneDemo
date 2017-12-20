@@ -2,18 +2,29 @@
 
 
 ## 使用方法
-1. 用Eclipse导入该项目
-2. 设置CreateIndex.java中的创建索引位置indexPath、待处理数据位置dataPath，并运行CreateIndex.java
-3. 设置Lucene.java中使用索引位置 indexPath
-4. 运行swing.java，即可。
+1.选择索引 (Ctrl + N)
+      New --> New Index，选择一个文件夹保存索引
+
+2.添加源语言和目标语言语料库
+      New --> New TXT Corpus ，选择源语言和目标语言语料文件
+      New --> New TMX Corpus ，选择TMX格式语料文件
+      创建索引需要一定时间，请耐心等待
+
+3.搜索
+      单次搜索：在搜索框内输入内容，按下“enter”或搜索按钮进行搜索
+      多次搜索：Search --> Search From File
+
+4.保存搜索结果 (Ctrl + S)
+      File --> Save ， 保存结果至本地
+
 
 ## 文件结构
 
 ![](https://github.com/Adaxry/LuceneDemo/blob/master/image/fileStructure.jpg?raw=true)
 
 ## 注意事项
-1. eclipse 下文件默认为GBK编码
-2. dataPath下的数据最好是ANSI编码，且每行为一条记录。
+1. 语料库文件采用UTF-8编码
+
 
 
 
